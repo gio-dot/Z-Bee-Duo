@@ -3,7 +3,7 @@ The first **HYBRID ZIGBEE ADAPTER**: can be used both as **usb stick** and as **
 
 <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210319_115743.jpg?raw=true" width="800">
 
-Z-Bee Duo is the first zigbee adapter that can be used as a **normal coordinator USB stick** (connected to an host where home automation software like Home assistant is installed), or as a **Raspberry PI Zero hat** (for Raspberry PI Zero only: it is designed with its exact same dimensions). It is provided with SMA external antenna connector and USB connector.
+**Z-Bee Duo** is the first zigbee adapter that can be used as a **normal coordinator USB stick** (connected to an host where home automation software like Home assistant is installed), or as a **Raspberry PI Zero hat** (for Raspberry PI Zero only: it is designed with its exact same dimensions). It is provided with SMA external antenna connector and USB connector.
 
 Coupled with PI Zero W, **the most compact and powerful standalone zigbee coordinator hub** can be realized. Z-Bee Duo power coupled Raspberry through its USB connector, and thanks to the innovative design, can be plugged to a cellular charger and moved anywhere in the home.
 
