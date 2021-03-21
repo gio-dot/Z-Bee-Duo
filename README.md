@@ -1,5 +1,5 @@
 # Z-Bee Duo
-The first hybrid zigbee adapter: can be used both as usb stick and as Raspberry hat with no modifications
+The first **HYBRID ZIGBEE ADAPTER**: can be used both as **usb stick** and as **Raspberry hat** with no modifications
 
 <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210319_115743.jpg?raw=true" width="800">
 
