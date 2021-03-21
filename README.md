@@ -12,8 +12,8 @@ The first hybrid zigbee adapter: can be used both as usb stick and as Raspberry 
 ## Mechanical
 
 <p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="300" />
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210319_115743.jpg" width="300" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="400" />
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_205527.jpg?raw=true" width="400" /> 
 </p>
 
 ## How to flash
