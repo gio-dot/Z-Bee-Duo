@@ -12,8 +12,8 @@ The first hybrid zigbee adapter: can be used both as usb stick and as Raspberry 
 ## Mechanical
 
 Z-Bee Duo is provided with a 3 pieces case:
-- part n.1 + part n.2 are used with Raspberry PI Zero+Z-Bee Duo combination (standalone zigbee2mqtt hub).
-- part n.1 + part n.3 are used with Z-Bee Duo only (USB stick).
+- part n.1 + part n.2 are used with **Raspberry PI Zero** + **Z-Bee Duo combination** (standalone zigbee2mqtt hub). In this configuration also provided spacers A and B should be used (with 2 screws on Raspberry side only).
+- part n.1 + part n.3 are used with **Z-Bee Duo only** (USB stick).
 
 <p float="left">
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_205527.jpg?raw=true" width="400" /> 
