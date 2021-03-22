@@ -35,23 +35,23 @@ CC2652P chip is provided with a serial bootloader, so if internal firmware have 
 
 Turn off Raspberry, disconnect from power, open the enclosure to reach RESET and FLASH buttons; turn on and do the following:
 
-Install pyserial to enable Raspberry serial coomunication with flash tool:
+- Install pyserial to enable Raspberry serial coomunication with flash tool:
 ```
 pip install pyserial
 ```
 
-Install IntelHex package to permit firmware .hex files use:
+- Install IntelHex package to permit firmware .hex files use:
 ```
 pip install intelhex
 ```
 
-Download flash tool:
+- Download flash tool:
 ```
 wget -O cc2538-bsl.zip https://codeload.github.com/JelmerT/cc2538-bsl/zip/master && unzip cc2538-bsl.zip    
             
 ```            
 
-Download and unpack new firmware to flash, use desired firmware github path, for example:
+- Download and unpack new firmware to flash, use desired firmware github path, for example:
 ```
 cd ~/cc2538-bsl-master
 ```
@@ -62,14 +62,14 @@ wget https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_3
 unzip CC1352P2_CC2652P_other_coordinator_20210120.zip
 ```
 
-done: press FLASH + RESET: release RESET before then FLASH; adapter is now in flash mode.
+- Press FLASH + RESET: release RESET before then FLASH; adapter is now in flash mode.
 
-Run flash using effective serial port (PORT) and previously downloaded firmware name (FIRMWARE):
+- Run flash using effective serial port (PORT) and previously downloaded firmware name (FIRMWARE):
 ```
 python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
 ```
 
-Reboot
+- Reboot
 
 #### FLASH FROM W10 (USB CONNECTED to the PC, no Raspberry connected)
 
@@ -97,9 +97,8 @@ python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_2021012
 - Done
 
 <p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210312_125742.jpg?raw=true" width="295" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_205527.jpg?raw=true" width="300" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="300" />
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-1.png?raw=true" width="300" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-2.png?raw=true" width="300" /> 
 </p>
 
 ## Raspberry PI Zero complete HUB configuration example
