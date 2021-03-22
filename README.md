@@ -30,6 +30,9 @@ Z-Bee Duo is provided with a 3 pieces case:
 ## How to flash
 
 CC2652P chip is provided with a serial bootloader, so if internal firmware have to be updated, no external programmers are needed. Flash can be done both from USB and from serial (when connected as a Raspberry hat. Take care to use a new firmware provided with serial bootloader to not loose bootloader functionality.
+Tested succesfully firmwares are: 
+- [Koenkk 3.x.0](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20210120.zip)
+- [Egony 3.x.0](https://github.com/egony/cc2652p_E72-2G4M20S1E/blob/master/firmware/coordinator/CC2652P_E72_20210319.zip)
 
 #### FLASH USING LINUX (ie FROM RASPBERRY)
 
@@ -97,8 +100,8 @@ python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_2021012
 - Done
 
 <p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-1.png?raw=true" width="300" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-2.png?raw=true" width="300" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-1.png?raw=true" width="500" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-2.png?raw=true" width="400" /> 
 </p>
 
 ## Raspberry PI Zero complete HUB configuration example
