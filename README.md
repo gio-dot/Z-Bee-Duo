@@ -65,6 +65,7 @@ wget https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_3
 ```
 unzip CC1352P2_CC2652P_other_coordinator_20210120.zip
 ```
+- Stop Zigbee2mqtt service if it is running.
 
 - Press FLASH + RESET: release RESET before then FLASH; adapter is now in flash mode.
 
