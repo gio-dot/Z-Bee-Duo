@@ -74,7 +74,7 @@ python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_other_coordinator_20
 
 - Reboot
 
-#### FLASH FROM W10 (USB CONNECTED to the PC, no Raspberry connected)
+#### FLASH FROM WINDOWS 10 (USB CONNECTED to the PC, no Raspberry connected)
 
 - Install Python: https://www.python.org/downloads/. Verify installation with command (from Windows Powershell):
 ```
