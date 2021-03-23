@@ -98,6 +98,7 @@ python -m pip install intelhex
 - From Windows powershell move to firmware folder (for example cd C: then CD python) and use this command (take care to use effective COM port and firmware name): 
 ```
 python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
+# test
 ```
 - Done
 
