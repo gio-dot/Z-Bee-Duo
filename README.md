@@ -13,7 +13,7 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 - [Mechanical](#mechanical)
 - [How to flash](#how-to-flash)
 
-Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/)
+***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
 
 ## Mechanical
 
