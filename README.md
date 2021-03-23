@@ -12,7 +12,7 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 
 - [Mechanical](#mechanical)
 - [How to flash](#how-to-flash)
-- [Raspberry PI Zero complete HUB configuration example](#raspberry-pi-zero-complete-hub-configuration-example)
+
 
 
 ## Mechanical
@@ -98,7 +98,7 @@ python -m pip install intelhex
 - From Windows powershell move to firmware folder (for example cd C: then CD python) and use this command (take care to use effective COM port and firmware name): 
 ```
 python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
-# test
+
 ```
 - Done
 
@@ -107,4 +107,4 @@ python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_2021012
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-2.png?raw=true" width="400" /> 
 </p>
 
-## Raspberry PI Zero complete HUB configuration example
+
