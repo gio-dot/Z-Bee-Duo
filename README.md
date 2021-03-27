@@ -12,6 +12,7 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 
 - [Mechanical](#mechanical)
 - [How to flash](#how-to-flash)
+- [How to setup PI Zero example](#How-to-setup-PI-Zero-example)
 
 ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
 
@@ -106,5 +107,40 @@ python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_2021012
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-1.png?raw=true" width="500" /> 
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-2.png?raw=true" width="400" /> 
 </p>
+
+### How-to-setup-PI-Zero-example
+
+Please follow this steps to setup a standalone zigbee2mqtt server with a Raspberry PI Zero W and Z-Bee Duo:
+- Install Raspberry SO (via the Raspberry Pi Imager, suggested Raspberry Pi OS Lite (32-bit): https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2
+- Tune Raspberry PI Zero settings (instructions are the same for Z-Bee Duo): https://www.zigbee2mqtt.io/information/connecting_cc2530.html#to-a-raspberry-pi-zero
+- Install zigbee2mqtt (venv mode): https://www.zigbee2mqtt.io/information/virtual_environment.html
+- Edit zigbee2mqtt configuration before to start it: https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html#3-configuring
+
+
+Zigbee2mqtt configuration file example on Raspberry PI Zero:
+```
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  # MQTT server URL (your homeassistant host IP address)
+  server: 'mqtt://192.168.1.3:1883'
+  # MQTT server authentication, uncomment if required:
+  # user: my_user
+  # password: my_password
+serial:
+  port: /dev/ttyAMA0
+frontend:
+  port: 8080
+experimental:
+  new_api: true
+  transmit_power: 15
+advanced:
+  log_level: info
+  pan_id: 6754
+  channel: 11
+  
+ ```
+
 
 
