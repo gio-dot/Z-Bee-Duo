@@ -36,7 +36,7 @@ Tested succesfully firmwares are:
 - [Koenkk 3.x.0](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20210120.zip)
 - [Egony 3.x.0](https://github.com/egony/cc2652p_E72-2G4M20S1E/blob/master/firmware/coordinator/CC2652P_E72_20210319.zip)
 
-### FLASH USING LINUX (ie FROM RASPBERRY)
+### FLASH FROM LINUX (ie FROM RASPBERRY)
 
 Turn off Raspberry, disconnect from power, open the enclosure to reach RESET and FLASH buttons; turn on and do the following:
 
