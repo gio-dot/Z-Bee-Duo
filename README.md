@@ -108,6 +108,12 @@ python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_2021012
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-2.png?raw=true" width="400" /> 
 </p>
 
+### FLASH VIA JTAG (in case SBL bootloader is disabled)
+
+If serial bootloader is disabled/not present, Z-Bee Duo can be flashed through its jtag connector following this procedure that is the same for CC2652P chip
+(make sure to use **CC1352P1F** chip type at point 6):
+https://www.zigbee2mqtt.io/information/flashing_the_cc2538.html
+
 ### HOW TO SETUP PI ZERO EXAMPLE
 
 Please follow this steps to setup a standalone zigbee2mqtt server with a **Raspberry PI Zero W** and **Z-Bee Duo**:
