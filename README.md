@@ -118,8 +118,8 @@ https://www.zigbee2mqtt.io/information/flashing_the_cc2538.html
 ### HOW TO SETUP SER2NET
 
 <p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_112758.jpg?raw=true" width="400" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_113334.jpg?raw=true" width="400" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_112758.jpg?raw=true" width="425" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_113334.jpg?raw=true" width="425" /> 
 </p>
 
 1.	Open Z-Bee case and insert Wifi module as in the picture above.
