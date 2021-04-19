@@ -131,7 +131,7 @@ https://www.zigbee2mqtt.io/information/flashing_the_cc2538.html
 </p>
 4.	Select WiFi Station section, set Scan (2) to find your Wifi, write your password and press Connect (3) to connect to it. Now Z-bee is connected to your wifi and can communicate with your zigbee2mqtt server through it. It is recommended to set a static IP in wifi module; this can be done in module configuration (4) or in your router settings.
 
-5.	As last point we have to set the new “serial port” in zigbee2mqtt configuration file as in the picture below (use your Z-bee ip address):
+As last point we have to set the new “serial port” in zigbee2mqtt configuration file as in the picture below (use your Z-bee ip address):
 
 ```
 - Stop zigbee2mqtt.
