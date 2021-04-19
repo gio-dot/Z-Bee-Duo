@@ -12,6 +12,7 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 
 - [Mechanical](#mechanical)
 - [How to flash](#how-to-flash)
+- [How to setup SER2NET](#How-to-setup-SER2NET)
 - [How to setup PI Zero example](#How-to-setup-PI-Zero-example)
 
 ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
@@ -113,6 +114,23 @@ python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_2021012
 If serial bootloader is disabled/not present, Z-Bee Duo can be flashed through its jtag connector following this procedure that is the same for CC2652P chip
 (make sure to use **CC1352P1F** chip type at point 6):
 https://www.zigbee2mqtt.io/information/flashing_the_cc2538.html
+
+### HOW TO SETUP SER2NET
+
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_112758.jpg?raw=true" width="450" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_113334.jpg?raw=true" width="450" /> 
+</p>
+
+1.	Open Z-Bee case and insert Wifi module as in the picture above.
+2.	Power Z-bee (i.e. with a cellular charger).
+3.	Wifi module now create an Access point because it is not connected to home wifi: connect to that AP (be sure that DHCP is enabled on your computer) and open module Webpage to connect it to your wifi. Address is 192.168.4.1.
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Hotspot.png?raw=true" width="400" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Connessione%20al%20wifi.png?raw=true" width="450" /> 
+</p>
+4.	Select WiFi Station section, set Scan (2) to find your Wifi, write your password and press Connect (3) to connect to it. Now Z-bee is connected to your wifi and can communicate with your zigbee2mqtt server through it. It is recommended to set a static IP in wifi module; this can be done in module configuration (4) or in your router settings.
+  
 
 ### HOW TO SETUP PI ZERO EXAMPLE
 
