@@ -130,17 +130,16 @@ https://www.zigbee2mqtt.io/information/flashing_the_cc2538.html
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Connessione%20al%20wifi.png?raw=true" width="450" /> 
 </p>
 4.	Select WiFi Station section, set Scan (2) to find your Wifi, write your password and press Connect (3) to connect to it. Now Z-bee is connected to your wifi and can communicate with your zigbee2mqtt server through it. It is recommended to set a static IP in wifi module; this can be done in module configuration (4) or in your router settings.
-
-5.	As last point we have to set the new “serial port” in zigbee2mqtt configuration file as the picture below (use your Z-bee ip address):
+5.	As last point we have to set the new “serial port” in zigbee2mqtt configuration file as in the picture below (use your Z-bee ip address):
 ```
 - Stop zigbee2mqtt.
-- Open and edit serial port in     
-zigbee2mqtt configuration file.
+- Open and edit serial port in zigbee2mqtt configuration file.
 - Start zigbee2mqtt.
 If Z-bee was previously used as USB adapter, the new configuration will maintain all previous settings (no need to repair etc.).
 ```
-
-  
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Zigbee2mqtt+Esp-Link+Esp-01s+Z-Bee%20Duo.png?raw=true" width="500" /> 
+</p>
 
 ### HOW TO SETUP PI ZERO EXAMPLE
 
