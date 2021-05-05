@@ -35,9 +35,13 @@ Z-Bee Duo is provided with a 3 pieces case:
 When used as USB zigbee adapter, first connect it to your computer/raspberry, identify your USB and setup zigbee2mqtt following these instructions (choose your installation type before):
 
 https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html
+
 Italian language guides:
+
 https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-su-home-assistant-hassio/
+
 https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-su-raspbian-di-raspberry-pi/
+
 https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-con-docker-su-raspbian-di-raspberry-pi/
 
 ### HOW TO SETUP SER2NET
