@@ -29,6 +29,71 @@ Z-Bee Duo is provided with a 3 pieces case:
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="300" />
 </p>
 
+
+
+### HOW TO SETUP SER2NET
+
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_112758.jpg?raw=true" width="425" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_113334.jpg?raw=true" width="425" /> 
+</p>
+
+1.	Open Z-Bee case and insert Wifi module as in the picture above.
+2.	Power Z-bee (i.e. with a cellular charger).
+3.	Wifi module now create an Access point because it is not connected to home wifi: connect to that AP (be sure that DHCP is enabled on your computer) and open module Webpage to connect it to your wifi. Address is 192.168.4.1.
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Hotspot.png?raw=true" width="400" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Connessione%20al%20wifi.png?raw=true" width="450" /> 
+</p>
+4.	Select WiFi Station section, set Scan (2) to find your Wifi, write your password and press Connect (3) to connect to it. Now Z-bee is connected to your wifi and can communicate with your zigbee2mqtt server through it. It is recommended to set a static IP in wifi module; this can be done in module configuration (4) or in your router settings.
+
+
+As last point we have to **set the new “serial port”** in zigbee2mqtt configuration file as in the picture below (use your Z-bee ip address):
+
+```
+- Stop zigbee2mqtt.
+- Open and edit serial port in zigbee2mqtt configuration file.
+- Start zigbee2mqtt.
+If Z-bee was previously used as USB adapter, the new configuration will maintain all previous settings (no need to repair etc.).
+```
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Zigbee2mqtt+Esp-Link+Esp-01s+Z-Bee%20Duo.png?raw=true" width="500" /> 
+</p>
+
+### HOW TO SETUP PI ZERO EXAMPLE
+
+Please follow this steps to setup a standalone zigbee2mqtt server with a **Raspberry PI Zero W** and **Z-Bee Duo**:
+- Install Raspberry SO (via the Raspberry Pi Imager, suggested Raspberry Pi OS Lite (32-bit): https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2
+- Tune Raspberry PI Zero settings (instructions are the same for Z-Bee Duo): https://www.zigbee2mqtt.io/information/connecting_cc2530.html#to-a-raspberry-pi-zero
+- Install zigbee2mqtt (venv mode): https://www.zigbee2mqtt.io/information/virtual_environment.html
+- Edit zigbee2mqtt configuration before to start it: https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html#3-configuring
+
+
+Zigbee2mqtt configuration file example on Raspberry PI Zero:
+```
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  # MQTT server URL (your homeassistant host IP address)
+  server: 'mqtt://192.168.1.3:1883'
+  # MQTT server authentication, uncomment if required:
+  # user: my_user
+  # password: my_password
+serial:
+  port: /dev/ttyAMA0
+frontend:
+  port: 8080
+experimental:
+  new_api: true
+  transmit_power: 15
+advanced:
+  log_level: info
+  pan_id: 6754
+  channel: 11
+  
+ ```
+
 ## How to flash
 
 CC2652P chip is provided with a serial bootloader, so if internal firmware have to be updated, no external programmers are needed. Flash can be done both from USB and from serial (when connected as a Raspberry hat). Take care to use a new firmware provided with serial bootloader to not loose bootloader functionality.
@@ -114,69 +179,4 @@ python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_2021012
 If serial bootloader is disabled/not present, Z-Bee Duo can be flashed through its jtag connector following this procedure that is the same for CC2652P chip
 (make sure to use **CC1352P1F** chip type at point 6):
 https://www.zigbee2mqtt.io/information/flashing_the_cc2538.html
-
-### HOW TO SETUP SER2NET
-
-<p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_112758.jpg?raw=true" width="425" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_113334.jpg?raw=true" width="425" /> 
-</p>
-
-1.	Open Z-Bee case and insert Wifi module as in the picture above.
-2.	Power Z-bee (i.e. with a cellular charger).
-3.	Wifi module now create an Access point because it is not connected to home wifi: connect to that AP (be sure that DHCP is enabled on your computer) and open module Webpage to connect it to your wifi. Address is 192.168.4.1.
-<p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Hotspot.png?raw=true" width="400" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Connessione%20al%20wifi.png?raw=true" width="450" /> 
-</p>
-4.	Select WiFi Station section, set Scan (2) to find your Wifi, write your password and press Connect (3) to connect to it. Now Z-bee is connected to your wifi and can communicate with your zigbee2mqtt server through it. It is recommended to set a static IP in wifi module; this can be done in module configuration (4) or in your router settings.
-
-
-As last point we have to **set the new “serial port”** in zigbee2mqtt configuration file as in the picture below (use your Z-bee ip address):
-
-```
-- Stop zigbee2mqtt.
-- Open and edit serial port in zigbee2mqtt configuration file.
-- Start zigbee2mqtt.
-If Z-bee was previously used as USB adapter, the new configuration will maintain all previous settings (no need to repair etc.).
-```
-<p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Zigbee2mqtt+Esp-Link+Esp-01s+Z-Bee%20Duo.png?raw=true" width="500" /> 
-</p>
-
-### HOW TO SETUP PI ZERO EXAMPLE
-
-Please follow this steps to setup a standalone zigbee2mqtt server with a **Raspberry PI Zero W** and **Z-Bee Duo**:
-- Install Raspberry SO (via the Raspberry Pi Imager, suggested Raspberry Pi OS Lite (32-bit): https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2
-- Tune Raspberry PI Zero settings (instructions are the same for Z-Bee Duo): https://www.zigbee2mqtt.io/information/connecting_cc2530.html#to-a-raspberry-pi-zero
-- Install zigbee2mqtt (venv mode): https://www.zigbee2mqtt.io/information/virtual_environment.html
-- Edit zigbee2mqtt configuration before to start it: https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html#3-configuring
-
-
-Zigbee2mqtt configuration file example on Raspberry PI Zero:
-```
-homeassistant: true
-permit_join: true
-mqtt:
-  base_topic: zigbee2mqtt
-  # MQTT server URL (your homeassistant host IP address)
-  server: 'mqtt://192.168.1.3:1883'
-  # MQTT server authentication, uncomment if required:
-  # user: my_user
-  # password: my_password
-serial:
-  port: /dev/ttyAMA0
-frontend:
-  port: 8080
-experimental:
-  new_api: true
-  transmit_power: 15
-advanced:
-  log_level: info
-  pan_id: 6754
-  channel: 11
-  
- ```
-
-
 
