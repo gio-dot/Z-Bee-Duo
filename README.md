@@ -11,9 +11,10 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 
 
 - [Mechanical](#mechanical)
-- [How to flash](#how-to-flash)
+- [How to run as USB adapter](#How-to-run-as-usb-adapter)
 - [How to setup SER2NET](#How-to-setup-SER2NET)
 - [How to setup PI Zero example](#How-to-setup-PI-Zero-example)
+- [How to flash](#how-to-flash)
 
 ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
 
@@ -29,7 +30,15 @@ Z-Bee Duo is provided with a 3 pieces case:
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="300" />
 </p>
 
+### HOW TO RUN AS USB ADAPTER
 
+When used as USB zigbee adapter, first connect it to your computer/raspberry, identify your USB and setup zigbee2mqtt following these instructions (choose your installation type before):
+
+https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html
+Italian language guides:
+https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-su-home-assistant-hassio/
+https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-su-raspbian-di-raspberry-pi/
+https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-con-docker-su-raspbian-di-raspberry-pi/
 
 ### HOW TO SETUP SER2NET
 
