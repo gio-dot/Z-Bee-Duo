@@ -11,6 +11,7 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 
 
 - [Mechanical](#mechanical)
+- [Migration from older adapter](#Migration-from-older-adapter)
 - [How to run as USB adapter](#How-to-run-as-usb-adapter)
 - [How to setup SER2NET](#How-to-setup-SER2NET)
 - [How to setup PI Zero example](#How-to-setup-PI-Zero-example)
@@ -29,6 +30,12 @@ Z-Bee Duo is provided with a 3 pieces case:
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_205527.jpg?raw=true" width="300" /> 
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="300" />
 </p>
+
+### MIGRATION FROM OLDER ADAPTER
+
+If you are migrating from an older adapter (like CC2530/31) follow this instructions:
+
+https://www.zigbee2mqtt.io/information/FAQ.html#how-do-i-migrate-from-a-cc2531-to-a-more-powerful-coordinator-eg-zzh
 
 ### HOW TO RUN AS USB ADAPTER
 
