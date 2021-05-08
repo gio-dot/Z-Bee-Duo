@@ -7,7 +7,7 @@ The first **HYBRID 3 MODES USB ZIGBEE ADAPTER**: can be used as **usb stick**, a
 
 Coupled with PI Zero W or with the optional wifi adapter, **the most compact and powerful standalone zigbee coordinator hub** can be realized. Z-Bee Duo power coupled Raspberry through its USB connector, and thanks to the innovative design, can be plugged to a cellular charger and moved anywhere in the home.
 
-This adapter is designed with the **new generation CC2652** Texas Instruments chip, in the most powerful version -P (+20dB embedded RF amplifier). It represent an upgrade of previous CC2530/CC2538/CC2538+CC2592 in terms of processor, ram and support. Latest Z-Stack 3.x.0 is used, and unlike its predecessor CC2538, it is fully supported by official Texas Instruments SDK.
+This adapter is designed with the **new generation CC2652** Texas Instruments chip, in the most powerful version -P (+20dB embedded RF amplifier). **Ebyte or RF-Star** chips are used (depending on market availability). It represent an upgrade of previous CC2530/CC2538/CC2538+CC2592 in terms of processor, ram and support. Latest Z-Stack 3.x.0 is used, and unlike its predecessor CC2538, it is fully supported by official Texas Instruments SDK.
 
 
 - [Mechanical](#mechanical)
