@@ -125,7 +125,7 @@ Tested succesfully firmwares are:
 ### FLASH WITH TEXAS INTRUMENTS FLASH PROGRAMMER 2
 
 - Go to [this](https://www.ti.com/tool/FLASH-PROGRAMMER#primary-sw) page and download Flash Programmer 2 software.
-- Intall it on your computer.
+- Install it on your computer.
 - Open Flash Programmer 2 and select chip type like image below.
 - Set and flash following steps 1-6 of the image.
 
