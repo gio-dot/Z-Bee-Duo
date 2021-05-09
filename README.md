@@ -122,6 +122,17 @@ Tested succesfully firmwares are:
 - [Koenkk 3.x.0](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20210120.zip)
 - [Egony 3.x.0](https://github.com/egony/cc2652p_E72-2G4M20S1E/blob/master/firmware/coordinator/CC2652P_E72_20210319.zip)
 
+### FLASH WITH TEXAS INTRUMENTS FLASH PROGRAMMER 2
+
+- Go to [this](https://www.ti.com/tool/FLASH-PROGRAMMER#primary-sw) page and download Flash Programmer 2 software.
+- Intall it on your computer.
+- Open Flash Programmer 2 and select chip type like image below.
+- Set and flash following steps 1-6 of the image.
+
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/2021-05-08%2011_23_16-SmartRF%20Flash%20Programmer%202%20-%20Texas%20Instruments.png?raw=true" width="700" /> 
+</p>
+
 ### FLASH FROM LINUX (ie FROM RASPBERRY)
 
 Turn off Raspberry, disconnect from power, open the enclosure to reach RESET and FLASH buttons; turn on and do the following:
