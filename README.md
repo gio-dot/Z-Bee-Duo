@@ -22,7 +22,7 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 ## Mechanical
 
 Z-Bee Duo is provided with a 3 pieces case:
-- part n.1 + part n.2 are used with **Raspberry PI Zero** + **Z-Bee Duo combination** (standalone zigbee2mqtt hub).
+- part n.1 + part n.2 are used with **Raspberry PI Zero** + **Z-Bee Duo combination** or **Raspberry PI Zero** + **ser2net Wifi module** (standalone zigbee2mqtt hub).
 - part n.1 + part n.3 are used with **Z-Bee Duo only** (USB stick).
 
 <p float="left">
