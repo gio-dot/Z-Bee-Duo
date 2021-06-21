@@ -149,7 +149,7 @@ pip install intelhex
 
 - Download flash tool:
 ```
-wget -O cc2538-bsl.zip https://codeload.github.com/JelmerT/cc2538-bsl/zip/master && unzip cc2538-bsl.zip    
+wget -O cc2538-bsl.zip https://github.com/Gio-dot/Z-Bee-Duo/raw/main/flash_tool/cc2538-bsl.zip && unzip cc2538-bsl.zip    
             
 ```            
 
@@ -172,6 +172,12 @@ unzip CC1352P2_CC2652P_other_coordinator_20210120.zip
 python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
 ```
 
+- Since version 1.1 **adapter is provided by auto BSL**: no buttons are needed to enter il flash mode. Flash string is the following:
+```
+python.exe cc2538-bsl.py -p /dev/ttyAMA0 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
+
+```
+
 - Reboot
 
 ### FLASH FROM WINDOWS 10 (USB CONNECTED to the PC, no Raspberry connected)
@@ -190,12 +196,17 @@ python -m pip install pyserial
 ```
 python -m pip install intelhex
 ```
-- Download and unpack (in a folder of your choice, for example c:\python) JelmerT: https://github.com/JelmerT/cc2538-bsl.
+- Download and unpack flash tool (in a folder of your choice, for example c:\python) https://github.com/Gio-dot/Z-Bee-Duo/raw/main/flash_tool/cc2538-bsl.zip
 - Download in that same folder also the new firmware to flash (for example CC1352P2_CC2652P_other_coordinator_20210120.hex). 
 - Now plug USB stick. Press FLASH + RESET: release RESET before then FLASH; adapter is now in flash mode.
 - From Windows powershell move to firmware folder (for example cd C: then CD python) and use this command (take care to use effective COM port and firmware name): 
 ```
 python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
+
+```
+- Since version 1.1 **adapter is provided by auto BSL**: no buttons are needed to enter il flash mode. Flash string is the following:
+```
+python.exe cc2538-bsl.py -p COM4 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
 
 ```
 - Done
