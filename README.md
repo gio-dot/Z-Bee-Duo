@@ -116,7 +116,7 @@ advanced:
 
 ## How to flash
 
-CC2652P chip is provided with a serial bootloader, so if internal firmware have to be updated, no external programmers are needed. Flash can be done both from USB and from serial (when connected as a Raspberry hat). Take care to use a new firmware provided with serial bootloader to not loose bootloader functionality.
+CC2652P chip is provided with a serial bootloader, so if internal firmware have to be updated, no external programmers are needed. **Flash can be done both from USB and from serial (when connected as a Raspberry hat)**. Take care to use a new firmware provided with serial bootloader to not loose bootloader functionality.
 
 Tested succesfully firmwares are: 
 - [Koenkk 3.x.0](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20210120.zip)
@@ -127,15 +127,17 @@ Tested succesfully firmwares are:
 - Go to [this](https://www.ti.com/tool/FLASH-PROGRAMMER#primary-sw) page and download Flash Programmer 2 software.
 - Install it on your computer.
 - Open Flash Programmer 2 and select chip type like image below.
+- Connect Z-Bee to PC usb port; **remember to remove wifi module if present!!!**
+- Put Z-Bee in flash mode (Auto BSL is not supported by Flash Programmer 2 software): press FLASH + RESET: release RESET before then FLASH; adapter is now in flash mode.
 - Set and flash following steps 1-6 of the image.
 
 <p float="left">
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/2021-05-08%2011_23_16-SmartRF%20Flash%20Programmer%202%20-%20Texas%20Instruments.png?raw=true" width="700" /> 
 </p>
 
-### FLASH FROM LINUX (ie FROM RASPBERRY)
+### FLASH FROM LINUX (ie FROM RASPBERRY or LINUX PC)
 
-Turn off Raspberry, disconnect from power, open the enclosure to reach RESET and FLASH buttons; turn on and do the following:
+Turn off Raspberry, disconnect from power, open the enclosure to reach RESET and FLASH buttons; this procedure can be done both with Z-Bee connected to PC/Raspberry USB port or connected to a Raspberry as hat (remember to adapt serial port in flash string). If Z-Bee is connectes to Raspberry/PC usb port **remember to remove wifi module if present!!!**. Turn on and do the following:
 
 - Install pyserial to enable Raspberry serial coomunication with flash tool:
 ```
