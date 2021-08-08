@@ -137,7 +137,11 @@ Tested succesfully firmwares are:
 
 ### FLASH FROM LINUX (ie FROM RASPBERRY or LINUX PC)
 
-Turn off Raspberry, disconnect from power, open the enclosure to reach RESET and FLASH buttons; this procedure can be done both with Z-Bee connected to PC/Raspberry USB port or connected to a Raspberry as hat (remember to adapt serial port in flash string). If Z-Bee is connectes to Raspberry/PC usb port **remember to remove wifi module if present!!!**. Turn on and do the following:
+Turn off Raspberry, disconnect from power, open the enclosure to reach RESET and FLASH buttons; this procedure can be done both with Z-Bee connected to PC/Raspberry USB port or connected to a Raspberry as hat (remember to adapt serial port in flash string). 
+
+If Z-Bee is connected to Raspberry/PC usb port **remember to remove wifi module if present!!!**. 
+
+Turn on and do the following:
 
 - Install pyserial to enable Raspberry serial coomunication with flash tool:
 ```
