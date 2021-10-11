@@ -118,9 +118,13 @@ advanced:
 
 CC2652P chip is provided with a serial bootloader, so if internal firmware have to be updated, no external programmers are needed. **Flash can be done both from USB and from serial (when connected as a Raspberry hat)**. Take care to use a new firmware provided with serial bootloader to not loose bootloader functionality.
 
-Tested succesfully firmwares are: 
+Succesfully tested **coordinator** firmwares are: 
 - [Koenkk 3.x.0](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20210120.zip)
 - [Egony 3.x.0](https://github.com/egony/cc2652p_E72-2G4M20S1E/blob/master/firmware/coordinator/CC2652P_E72_20210319.zip)
+
+Succesfully tested **router** firmwares are: 
+- [Koenkk 3.x.0](https://github.com/Koenkk/Z-Stack-firmware/blob/master/router/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_router_20210128.zip)
+- [Koenkk 3.x.0 - bkupidura ](https://github.com/Koenkk/Z-Stack-firmware/files/6139567/zb_firmware_CC1352P_2.zip)
 
 ### FLASH WITH TEXAS INTRUMENTS FLASH PROGRAMMER 2
 
