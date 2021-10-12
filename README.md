@@ -25,6 +25,8 @@ Z-Bee Duo is provided with a 3 pieces case:
 - part n.1 + part n.2 are used with **Raspberry PI Zero** + **Z-Bee Duo combination** or **Raspberry PI Zero** + **ser2net Wifi module** (standalone zigbee2mqtt hub).
 - part n.1 + part n.3 are used with **Z-Bee Duo only** (USB stick).
 
+<img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Collage.png?raw=true" width="900">
+
 <p float="left">
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210312_125742.jpg?raw=true" width="295" /> 
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_205527.jpg?raw=true" width="300" /> 
