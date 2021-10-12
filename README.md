@@ -1,5 +1,5 @@
 # Z-Bee Duo
-The first **HYBRID 4 MODES USB ZIGBEE ADAPTER**: can be used as **USB stick**, **Ser2net wifi** adapter, **LAN** adapter and as **Raspberry PI Zero hat**!
+The first **MODULAR 4 MODES USB ZIGBEE ADAPTER**: can be used as **USB stick**, **Ser2net wifi** adapter, **LAN** adapter and as **Raspberry PI Zero hat**!
 
 <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20211010_101921-ico-3.jpg?raw=true" width="900">
 
@@ -14,6 +14,7 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 - [Migration from older adapter](#Migration-from-older-adapter)
 - [How to run as USB adapter](#How-to-run-as-usb-adapter)
 - [How to setup SER2NET](#How-to-setup-SER2NET)
+- [How to setup LAN VERSION](#How-to-setup-LAN-VERSION)
 - [How to setup PI Zero example](#How-to-setup-PI-Zero-example)
 - [How to flash](#how-to-flash)
 
@@ -21,17 +22,16 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 
 ## Mechanical
 
-Z-Bee Duo is provided with a 3 pieces case:
-- part n.1 + part n.2 are used with **Raspberry PI Zero** + **Z-Bee Duo combination** or **Raspberry PI Zero** + **ser2net Wifi module** (standalone zigbee2mqtt hub).
-- part n.1 + part n.3 are used with **Z-Bee Duo only** (USB stick).
-
 <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Collage.png?raw=true" width="900">
 
+Z-Bee Duo is provided with optional 3D printed case:
+- Base 2 pieces USB case: **base enclosure** (the one with zigbee logo) + thin cap.
+- WIFI or Raspberry PI0 cap: cap to in Wifi or Raspberry PI0 Hat configurations.
+- LAN cap: cap to use for Ethernet configuration.
 <p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210312_125742.jpg?raw=true" width="295" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_205527.jpg?raw=true" width="300" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="300" />
+    <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="300" />
 </p>
+Image above show how Raspberry PI0 is coupled with Z-Bee board.
 
 ### MIGRATION FROM OLDER ADAPTER
 
@@ -61,14 +61,34 @@ https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-con-docker-su
 </p>
 
 1.	Open Z-Bee case and insert Wifi module as in the picture above.
-2.	Power Z-bee (i.e. with a cellular charger).
+2.	Power Z-Bee (i.e. with a cellular charger, **do not insert in a PC/Raspberry USB port when used as ser2net adapter**).
 3.	Wifi module now create an Access point because it is not connected to home wifi: connect to that AP (be sure that DHCP is enabled on your computer) and open module Webpage to connect it to your wifi. Address is 192.168.4.1.
 <p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Hotspot.png?raw=true" width="400" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Connessione%20al%20wifi.png?raw=true" width="450" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Settings.png?raw=true" width="400" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/CaptivePortalLogin.png?raw=true" width="450" /> 
 </p>
-4.	Select WiFi Station section, set Scan (2) to find your Wifi, write your password and press Connect (3) to connect to it. Now Z-bee is connected to your wifi and can communicate with your zigbee2mqtt server through it. It is recommended to set a static IP in wifi module; this can be done in module configuration (4) or in your router settings.
+4.	Once connected to your wifi, check Z-Bee IP address in router settings or using apps like Fing. It is recommended to set a static IP for Z-Bee; this can be done in your router settings.
 
+As last point we have to **set the new “serial port”** in zigbee2mqtt configuration file as in the picture below (use your Z-bee ip address):
+
+```
+- Stop zigbee2mqtt.
+- Open and edit serial port in zigbee2mqtt configuration file.
+- Start zigbee2mqtt.
+If Z-bee was previously used as USB adapter, the new configuration will maintain all previous settings (no need to repair etc.).
+```
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Zigbee2mqtt+Esp-Link+Esp-01s+Z-Bee%20Duo.png?raw=true" width="500" /> 
+</p>
+
+### HOW TO SETUP LAN VERSION
+
+1.	Open Z-Bee case and insert LAN module.
+2.	Power Z-Bee (i.e. with a cellular charger using a male to female type A usb cable or a micro USB cable, **do not power by a PC/Raspberry USB port when used as LAN adapter**).
+3.	Once connected to your router, check Z-Bee IP address in router settings or using apps like Fing. It is recommended to set a static IP for Z-Bee; this can be done in your router settings.
+<p float="left">
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/tempFileForShare.png?raw=true" width="400" /> 
+</p>
 
 As last point we have to **set the new “serial port”** in zigbee2mqtt configuration file as in the picture below (use your Z-bee ip address):
 
