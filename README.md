@@ -1,5 +1,5 @@
 # Z-Bee Duo
-The first **HYBRID 3 MODES USB ZIGBEE ADAPTER**: can be used as **usb stick**, as **Raspberry PI Zero hat** and as **Ser2net wifi** adapter!
+The first **HYBRID 4 MODES USB ZIGBEE ADAPTER**: can be used as **usb stick**, **Ser2net wifi** adapter, **LAN** adapter and as **Raspberry PI Zero hat**!
 
 <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Collage.png?raw=true" width="900">
 
