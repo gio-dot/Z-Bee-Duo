@@ -41,7 +41,7 @@ https://www.zigbee2mqtt.io/information/FAQ.html#how-do-i-migrate-from-a-cc2531-t
 
 ### HOW TO RUN AS USB ADAPTER
 
-When used as USB zigbee adapter, first connect it to your computer/raspberry, identify your USB and setup zigbee2mqtt following these instructions (choose your installation type before):
+When used as USB zigbee adapter, connect it to your computer/raspberry, identify your USB and setup zigbee2mqtt following these instructions (choose your installation type before):
 
 https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html
 
