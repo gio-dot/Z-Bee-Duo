@@ -26,8 +26,8 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 
 Z-Bee Duo is provided with optional 3D printed case:
 - Base 2 pieces USB case: **base enclosure** (the one with zigbee logo) + thin cap.
-- WIFI or Raspberry PI0 cap: cap to in Wifi or Raspberry PI0 Hat configurations.
-- LAN cap: cap to use for Ethernet configuration.
+- WIFI or Raspberry PI0 hat: cap for Wifi or Raspberry PI0 Hat configurations.
+- LAN cap: cap for Ethernet configuration.
 <p float="left">
     <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210321_203024.jpg" width="300" />
 </p>
