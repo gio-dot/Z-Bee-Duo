@@ -87,7 +87,7 @@ If Z-bee was previously used as USB adapter, the new configuration will maintain
 2.	Power Z-Bee (i.e. with a cellular charger using a male to female type A usb cable or a micro USB cable, **do not power by a PC/Raspberry USB port when used as LAN adapter**).
 3.	Once connected to your router, check Z-Bee IP address in router settings or using apps like Fing. It is recommended to set a static IP for Z-Bee; this can be done in your router settings.
 <p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/tempFileForShare.png?raw=true" width="400" /> 
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/photo_2021-12-27_22-26-27.jpg?raw=true" width="400" /> 
 </p>
 
 As last point we have to **set the new “serial port”** in zigbee2mqtt configuration file as in the picture below (use your Z-bee ip address):
