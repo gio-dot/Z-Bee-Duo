@@ -4,5 +4,5 @@
 
 If you are migrating from an older adapter (like CC2530/31) follow this instructions:
 
-(https://www.zigbee2mqtt.io/information/FAQ.html#how-do-i-migrate-from-a-cc2531-to-a-more-powerful-coordinator-eg-zzh)
+[Migration from older adapter](https://www.zigbee2mqtt.io/information/FAQ.html#how-do-i-migrate-from-a-cc2531-to-a-more-powerful-coordinator-eg-zzh)
 
