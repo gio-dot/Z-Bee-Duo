@@ -1,6 +1,6 @@
 
 ## [Z-Bee Duo](https://gio-dot.github.io/Z-Bee-Duo/)/Usb Coordinator
-### HOW TO RUN AS USB ADAPTER
+
 
 When used as USB zigbee adapter, connect it to your computer/raspberry, identify your USB and setup zigbee2mqtt following these instructions (choose your installation type before):
 
