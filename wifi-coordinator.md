@@ -1,4 +1,4 @@
-## [Z-Bee Duo](https://gio-dot.github.io/Z-Bee-Duo/)/wifi-coordinator
+## [Z-Bee Duo](https://gio-dot.github.io/Z-Bee-Duo/)/WiFi Coordinator
 
 <p float="left">
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20210415_112758.jpg?raw=true" width="425" /> 
