@@ -1,4 +1,4 @@
-## [Z1-Mini](https://gio-dot.github.io/Z1-Mini/)/FAQ
+## [Z-Bee Duo](https://gio-dot.github.io/Z-Bee-Duo/)/FAQ
 
 ### MIGRATION FROM OLDER ADAPTER
 
