@@ -10,13 +10,15 @@ Coupled with the optional wifi/Ethernet adapter or with PI Zero W, **the most co
 This adapter is designed with the **new generation CC2652** Texas Instruments chip, in the most powerful version -P (+20dB embedded RF amplifier). **Ebyte or RF-Star** chips are used (depending on market availability). It represent an upgrade of previous CC2530/CC2538/CC2538+CC2592 in terms of processor, ram and support. Latest Z-Stack 3.x.0 is used, and unlike its predecessor CC2538, it is fully supported by official Texas Instruments SDK.
 
 
-- [Mechanical](#mechanical)
-- [Migration from older adapter](#Migration-from-older-adapter)
-- [How to run as USB adapter](#How-to-run-as-usb-adapter)
-- [How to setup SER2NET](#How-to-setup-SER2NET)
-- [How to setup LAN VERSION](#How-to-setup-LAN-VERSION)
-- [How to setup PI Zero example](#How-to-setup-PI-Zero-example)
-- [How to flash](#how-to-flash)
+- [Mechanical] (https://gio-dot.github.io/Z-Bee-Duo/mechanical)
+- [FAQ](https://gio-dot.github.io/Z-Bee-Duo/FAQ)
+- [How to: USB coordinator] (https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator)
+- [How to: WiFi coordinator] (https://gio-dot.github.io/Z-Bee-Duo/wifi-coordinator)
+- [How to: LAN coordinator] (https://gio-dot.github.io/Z-Bee-Duo/lan-coordinator)
+- [How to: PI0 zigbee Hub] (https://gio-dot.github.io/Z-Bee-Duo/pi0-zigbee-hub)
+- [Zigbee router] (https://gio-dot.github.io/Z-Bee-Duo/zigbee-router)
+
+- [Firmware upgrade] (https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)
 
 ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
 
