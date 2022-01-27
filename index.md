@@ -3,16 +3,16 @@ The first **MODULAR 4 MODES USB ZIGBEE ADAPTER**: can be used as **USB stick**, 
 
 <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20211010_101921-ico-3.jpg?raw=true" width="900">
 
-***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
+### ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
 
-| - [Construction](https://gio-dot.github.io/Z-Bee-Duo/mechanical)      |  - [Basic USB installation](https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator)             |
+| [Construction -->](https://gio-dot.github.io/Z-Bee-Duo/mechanical) |  [Basic USB installation -->](https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator) |
 | :-------------------------- | :-------------------------- |
-| - [WiFi coordinator setup](https://gio-dot.github.io/Z-Bee-Duo/wifi-coordinator)  | - [LAN coordinator setup](https://gio-dot.github.io/Z-Bee-Duo/lan-coordinator)  |
-| - [PI0 zigbee Hub](https://gio-dot.github.io/Z-Bee-Duo/pi0-zigbee-hub)   | - [Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)  |
-| - [Zigbee router](https://gio-dot.github.io/Z-Bee-Duo/zigbee-router)   |- [FAQ](https://gio-dot.github.io/Z-Bee-Duo/FAQ) |
+| [**WiFi coordinator setup -->**](https://gio-dot.github.io/Z-Bee-Duo/wifi-coordinator)  | [**LAN coordinator setup -->**](https://gio-dot.github.io/Z-Bee-Duo/lan-coordinator)   |
+| [**PI0 zigbee Hub -->**](https://gio-dot.github.io/Z-Bee-Duo/pi0-zigbee-hub) | [**Firmware upgrade -->**](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)  |
+| [**Zigbee router -->**](https://gio-dot.github.io/Z-Bee-Duo/zigbee-router) | [**FAQ -->**](https://gio-dot.github.io/Z-Bee-Duo/FAQ)  |
 
 
-**Z-Bee Duo**
+## **Z-Bee Duo**
 
 Is an innovative zigbee adapter (coordinator or router) in form of usb dongle. It can be used with popular zigbee software like zigbee2mqtt, Homeassistant ZHA etc. It is designed with the new generation CC2652 Texas Instruments chip, in the most powerful version -P (+20dB embedded RF amplifier) and represents an upgrade of previous CC2530/CC2538/CC2538+CC2592 in terms of processor, ram and support. Latest Z-Stack 3.x.0 is used, and unlike its predecessor CC2538, it is fully supported by official Texas Instruments SDK.
 
