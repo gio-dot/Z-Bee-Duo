@@ -11,10 +11,10 @@ E-Byte version (green chip): succesfully tested **coordinator** firmwares are:
 
 ## FLASH TOOLS
 
-#### [TEXAS INTRUMENTS FLASH PROGRAMMER 2](https://gio-dot.github.io/Z-Bee-Duo/flash-programmer2)
-#### [FROM LINUX](https://gio-dot.github.io/Z-Bee-Duo/flash-from-linux)
-#### [FROM WINDOWS](https://gio-dot.github.io/Z-Bee-Duo/flash-from-windows)
-#### [JTAG](https://gio-dot.github.io/Z-Bee-Duo/flash-from-jtag)
+- #### [TEXAS INTRUMENTS FLASH PROGRAMMER 2](https://gio-dot.github.io/Z-Bee-Duo/flash-programmer2)
+- #### [FROM LINUX](https://gio-dot.github.io/Z-Bee-Duo/flash-from-linux)
+- #### [FROM WINDOWS](https://gio-dot.github.io/Z-Bee-Duo/flash-from-windows)
+- #### [JTAG](https://gio-dot.github.io/Z-Bee-Duo/flash-from-jtag)
 
 
 
