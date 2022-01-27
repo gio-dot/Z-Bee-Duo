@@ -9,10 +9,12 @@ E-Byte version (green chip): succesfully tested **coordinator** firmwares are:
 - [Koenkk 3.x.0 20211217](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20211217.zip)
 - [Egony 3.x.0 20210319](https://github.com/egony/cc2652p_E72-2G4M20S1E/blob/master/firmware/coordinator/CC2652P_E72_20210319.zip)
 
-## [FLASH WITH TEXAS INTRUMENTS FLASH PROGRAMMER 2](https://gio-dot.github.io/Z-Bee-Duo/flash-programmer2)
-## [FLASH FROM LINUX](https://gio-dot.github.io/Z-Bee-Duo/flash-from-linux)
-## [FLASH FROM WINDOWS](https://gio-dot.github.io/Z-Bee-Duo/flash-from-windows)
-## [FLASH FROM JTAG](https://gio-dot.github.io/Z-Bee-Duo/flash-from-jtag)
+## FLASH TOOLS
+
+#### [TEXAS INTRUMENTS FLASH PROGRAMMER 2](https://gio-dot.github.io/Z-Bee-Duo/flash-programmer2)
+#### [FROM LINUX](https://gio-dot.github.io/Z-Bee-Duo/flash-from-linux)
+#### [FROM WINDOWS](https://gio-dot.github.io/Z-Bee-Duo/flash-from-windows)
+#### [JTAG](https://gio-dot.github.io/Z-Bee-Duo/flash-from-jtag)
 
 
 
