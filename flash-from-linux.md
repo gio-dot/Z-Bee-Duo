@@ -23,7 +23,7 @@ wget -O cc2538-bsl.zip https://github.com/Gio-dot/Z-Bee-Duo/raw/main/flash_tool/
             
 ```            
 
-- Download and unpack new firmware to flash, use desired firmware github path, for example:
+- Download and unpack new firmware to flash, use desired firmware github path, for example
 ```
 cd ~/cc2538-bsl-master
 ```
@@ -37,12 +37,12 @@ unzip CC1352P2_CC2652P_other_coordinator_20210120.zip
 
 - Press FLASH + RESET: release RESET before then FLASH; adapter is now in flash mode.
 
-- Run flash using effective serial port (PORT) and previously downloaded firmware name (FIRMWARE):
+- Run flash using effective serial port (PORT) and previously downloaded firmware name (FIRMWARE)
 ```
 python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
 ```
 
-- Since version 1.1 **adapter is provided by auto BSL**: no buttons are needed to enter il flash mode. Flash string is the following:
+- Since version 1.1 **adapter is provided by auto BSL**: no buttons are needed to enter il flash mode. Flash string is the following
 ```
 python.exe cc2538-bsl.py -p /dev/ttyAMA0 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
 
