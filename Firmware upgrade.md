@@ -75,7 +75,7 @@ python.exe cc2538-bsl.py -p /dev/ttyAMA0 --invoke-bootloader 3 -ewv CC1352P2_CC2
 
 ### FLASH FROM WINDOWS 10 (USB CONNECTED to the PC, no Raspberry connected)
 
-- Install Python: https://www.python.org/downloads/. Verify installation with command (from Windows Powershell):
+- Install Python: [Python](https://www.python.org/downloads/). Verify installation with command (from Windows Powershell):
 ```
 python -V
 ```
@@ -89,7 +89,7 @@ python -m pip install pyserial
 ```
 python -m pip install intelhex
 ```
-- Download and unpack flash tool (in a folder of your choice, for example c:\python) https://github.com/Gio-dot/Z-Bee-Duo/raw/main/flash_tool/cc2538-bsl.zip
+- Download and unpack flash tool (in a folder of your choice, for example c:\python) [Flash tool](https://github.com/Gio-dot/Z-Bee-Duo/raw/main/flash_tool/cc2538-bsl.zip)
 - Download in that same folder also the new firmware to flash (for example CC1352P2_CC2652P_other_coordinator_20210120.hex). 
 - Now plug USB stick. Press FLASH + RESET: release RESET before then FLASH; adapter is now in flash mode.
 - From Windows powershell move to firmware folder (for example cd C: then CD python) and use this command (take care to use effective COM port and firmware name): 
@@ -113,5 +113,5 @@ python.exe cc2538-bsl.py -p COM4 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_oth
 
 If serial bootloader is disabled/not present, Z-Bee Duo can be flashed through its jtag connector following this procedure that is the same for CC2652P chip
 (make sure to use **CC1352P1F** chip type at point 6):
-https://www.zigbee2mqtt.io/information/flashing_the_cc2538.html
+[Jtag flash](https://www.zigbee2mqtt.io/information/flashing_the_cc2538.html)
 
