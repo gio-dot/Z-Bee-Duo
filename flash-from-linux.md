@@ -17,7 +17,7 @@ pip install pyserial
 pip install intelhex
 ```
 
-- Download flash tool:
+- Download flash tool
 ```
 wget -O cc2538-bsl.zip https://github.com/Gio-dot/Z-Bee-Duo/raw/main/flash_tool/cc2538-bsl.zip && unzip cc2538-bsl.zip    
             
