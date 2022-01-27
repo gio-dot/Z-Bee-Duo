@@ -16,9 +16,8 @@ This adapter is designed with the **new generation CC2652** Texas Instruments ch
 - [How to: WiFi coordinator](https://gio-dot.github.io/Z-Bee-Duo/wifi-coordinator)
 - [How to: LAN coordinator](https://gio-dot.github.io/Z-Bee-Duo/lan-coordinator)
 - [How to: PI0 zigbee Hub](https://gio-dot.github.io/Z-Bee-Duo/pi0-zigbee-hub)
+- [Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)
 - [Zigbee router](https://gio-dot.github.io/Z-Bee-Duo/zigbee-router)
-
-- [Firmware upgrade] (https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)
 
 ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
 
