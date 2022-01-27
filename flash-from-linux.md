@@ -1,4 +1,4 @@
-[Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)/Flash from Linux
+## [Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)/Flash from Linux
 
 
 Turn off Raspberry, disconnect from power, open the enclosure to reach RESET and FLASH buttons; this procedure can be done both with Z-Bee connected to PC/Raspberry USB port or connected to a Raspberry as hat (remember to adapt serial port in flash string). 
