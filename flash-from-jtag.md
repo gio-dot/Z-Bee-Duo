@@ -1,4 +1,4 @@
-## [Z-Bee Duo](https://gio-dot.github.io/Z-Bee-Duo/)/JTAG flash
+## [Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)/JTAG flash
 
 
 ### SBL bootloader is disabled/not present
