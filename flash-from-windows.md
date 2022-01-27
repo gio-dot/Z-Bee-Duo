@@ -1,4 +1,4 @@
-[Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)/Flash from Windows
+## [Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)/Flash from Windows
 
 
 
