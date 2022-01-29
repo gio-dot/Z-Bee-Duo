@@ -3,7 +3,7 @@ The first **MODULAR 4 MODES USB ZIGBEE ADAPTER**: USB Stick / Ser2net Wifi Hub /
 
 <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/20211010_101921-ico-3.jpg?raw=true" width="900">
 
-### ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
+#### ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
 
 | [Construction -->](https://gio-dot.github.io/Z-Bee-Duo/construction) |  [Basic USB installation -->](https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator) |
 | :-------------------------- | :-------------------------- |
