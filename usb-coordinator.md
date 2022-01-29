@@ -6,14 +6,14 @@ The first step before to use a zigbee coordinator is to choose the way to integr
 - [Specific WiFi version setup](https://gio-dot.github.io/Z-Bee-Duo/wifi-coordinator)
 - [Specific Lan version setup](https://gio-dot.github.io/Z-Bee-Duo/lan-coordinator)
 
-## Zigbee2mqtt installation
+## **Zigbee2mqtt installation**
 
 - #### [Installation guide](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
 
 **NOTE**
 - **Serial Device Path**: Remember that in most cases Z-Bee duo usb path is: **```/dev/ttyUSB0```**
 
-## ZHA setup
+## **ZHA setup**
 
 - #### [ZHA setup guide](https://www.home-assistant.io/integrations/zha/#configuration---gui)
 
@@ -30,7 +30,7 @@ Setup steps:
 
 
 
-## Italian language guides
+## **Italian language guides**
 
 [Installazione Zigbee2mqtt hassio](https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-su-home-assistant-hassio/)
 
