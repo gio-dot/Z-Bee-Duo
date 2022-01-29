@@ -31,3 +31,17 @@ If Z-bee was previously used as USB adapter, the new configuration will maintain
 
 If Z-Bee was previously used as USB adapter, the new configuration will maintain all previous settings (no need to repair etc.).
 
+## ZHA setup
+
+Once Z-Bee Duo Lan is connected to Lan network, during ZHA initial setup its ip address have to be set in ZHA **Serial device path** as shown:
+
+```socket://[IP]:[PORT]``` for example ```socket://192.168.1.11:23```
+
+**NOTE**
+
+If Z-Bee Duo was previously used as USB adapter, to migrate to a WiFi or Lan solution follow these steps:
+
+- Delete the whole ZHA integration from Homeassistant settings. **Note that the devices already paired wil be mainteined in ZHA configuration !!!**
+- Add again ZHA integration using ip/port address as shown above this time.
+- **The new configuration will maintain all previous settings (no need to repair etc.).**
+
