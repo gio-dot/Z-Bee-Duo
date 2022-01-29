@@ -5,7 +5,7 @@ The first **MODULAR 4 MODES USB ZIGBEE ADAPTER**: USB Stick / Ser2net Wifi Hub /
 
 #### ***Assembled and tested Z-Bee Duo [can be found here](https://www.tindie.com/products/23046/).***
 
-| [Construction -->](https://gio-dot.github.io/Z-Bee-Duo/construction) |  [Basic USB installation -->](https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator) |
+| [Construction -->](https://gio-dot.github.io/Z-Bee-Duo/construction) |  [Basic installation -->](https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator) |
 | :-------------------------- | :-------------------------- |
 | [**WiFi coordinator setup -->**](https://gio-dot.github.io/Z-Bee-Duo/wifi-coordinator)  | [**LAN coordinator setup -->**](https://gio-dot.github.io/Z-Bee-Duo/lan-coordinator)   |
 | [**PI0 zigbee Hub -->**](https://gio-dot.github.io/Z-Bee-Duo/pi0-zigbee-hub) | [**Firmware upgrade -->**](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)  |
