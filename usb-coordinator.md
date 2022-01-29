@@ -38,4 +38,6 @@ Setup steps:
 
 [Installazione Zigbee2mqtt docker](https://indomus.it/guide/come-installare-e-configurare-zigbee2mqtt-con-docker-su-raspbian-di-raspberry-pi/)
 
+[Configurazione ZHA](https://henriksozzi.it/2021/03/zha-zigbee-in-home-assistant/)
+
 
