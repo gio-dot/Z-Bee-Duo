@@ -2,7 +2,7 @@
 
 ## [Z-Bee Duo](https://gio-dot.github.io/Z-Bee-Duo/)/LAN Coordinator
 
-## Prerequisites
+## **Prerequisites**
 
 1.	If not yet present, open Z-Bee case and insert the LAN module.
 2.	Power on Z-Bee (i.e. with a cellular charger using a male to female type A usb cable or an USB-C cable, **do not power by a PC/Raspberry USB port when used as LAN adapter**). Connect an ethernet cable.
@@ -12,7 +12,7 @@
 </p>
 
 
-## Zigbee2mqtt configuration
+## **Zigbee2mqtt configuration**
 
 Please follow general zigbee installation instructions [here](https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator) before. 
 Once Z-Bee Duo wifi is connected to wifi network, its ip address have to be set in zigbee2mqtt configuration file as in the picture below:
@@ -31,7 +31,7 @@ If Z-bee was previously used as USB adapter, the new configuration will maintain
 
 If Z-Bee was previously used as USB adapter, the new configuration will maintain all previous settings (no need to repair etc.).
 
-## ZHA setup
+## **ZHA setup**
 
 Once Z-Bee Duo Lan is connected to Lan network, during ZHA initial setup its ip address have to be set in ZHA **Serial device path** as shown:
 
