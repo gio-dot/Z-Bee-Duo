@@ -18,7 +18,7 @@
 
 - Once connected to your wifi, **check Z-Bee IP address in router settings or using apps like Fing**. It is recommended to set a **static IP** for Z-Bee; this can be done in your router settings.
 
-## Zigbee2mqtt setup
+## **Zigbee2mqtt setup**
 
 Please follow general zigbee installation instructions [here](https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator) before. 
 Once Z-Bee Duo wifi is connected to wifi network, its ip address have to be set in zigbee2mqtt configuration file as in the picture below:
@@ -33,7 +33,7 @@ If Z-bee was previously used as USB adapter, the new configuration will maintain
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Zigbee2mqtt+Esp-Link+Esp-01s+Z-Bee%20Duo.png?raw=true" width="500" /> 
 </p>
 
-## ZHA setup
+## **ZHA setup**
 
 Once Z-Bee Duo wifi is connected to wifi network, during ZHA initial setup its ip address have to be set in ZHA **Serial device path** as shown:
 
