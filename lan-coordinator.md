@@ -27,7 +27,7 @@ If Z-bee was previously used as USB adapter, the new configuration will maintain
   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Zigbee2mqtt+Esp-Link+Esp-01s+Z-Bee%20Duo.png?raw=true" width="500" /> 
 </p>
 
-**NOTE:**
+**NOTE**
 
 If Z-Bee was previously used as USB adapter, the new configuration will maintain all previous settings (no need to repair etc.).
 
