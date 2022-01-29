@@ -16,8 +16,7 @@
 <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/CaptivePortalLogin.png?raw=true" width="240" />
 </p>
 
-
-4.	Once connected to your wifi, **check Z-Bee IP address in router settings or using apps like Fing**. It is recommended to set a **static IP** for Z-Bee; this can be done in your router settings.
+- Once connected to your wifi, **check Z-Bee IP address in router settings or using apps like Fing**. It is recommended to set a **static IP** for Z-Bee; this can be done in your router settings.
 
 ## Zigbee2mqtt setup
 
