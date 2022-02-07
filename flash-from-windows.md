@@ -32,7 +32,7 @@ python.exe cc2538-bsl.py -p COM4 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_oth
 
 - Since **rev.E** no buttons are needed to enter il flash mode. Flash string is the following:
 ```
-python.exe cc2538-bsl.py -p COM4 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
+python.exe cc2538-bsl.py -p COM4 -ewv CC1352P2_CC2652P_launchpad_coordinator_20211217.hex
 ```
 - Done
 
