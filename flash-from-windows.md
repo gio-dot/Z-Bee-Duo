@@ -25,7 +25,12 @@ python -m pip install intelhex
 ```
 python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
 ```
-- Since version 1.1 **adapter is provided by auto BSL**: no buttons are needed to enter il flash mode. Flash string is the following:
+- Since version **1.1 to rev.D** adapter is provided by auto BSL: no buttons are needed to enter il flash mode. Flash string is the following:
+```
+python.exe cc2538-bsl.py -p COM4 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
+```
+
+- Since **rev.E** no buttons are needed to enter il flash mode. Flash string is the following:
 ```
 python.exe cc2538-bsl.py -p COM4 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
 ```
