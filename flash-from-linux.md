@@ -43,12 +43,12 @@ unzip CC1352P2_CC2652P_other_coordinator_20210120.zip
 python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
 ```
 
-- Since version **1.1 to rev.D** adapter is provided by auto BSL: no buttons are needed to enter il flash mode. Flash string is the following:
+- Since version **1.1 to rev.D** adapter is provided by auto BSL: no buttons are needed to enter in flash mode. Flash string is the following:
 ```
 python.exe cc2538-bsl.py -p /dev/ttyAMA0 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
 ```
 
-- Since **rev.E** no buttons are needed to enter il flash mode. Flash string is the following:
+- Since **rev.E** no buttons are needed to enter in flash mode. Flash string is the following:
 ```
 python.exe cc2538-bsl.py -p /dev/ttyAMA0 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
 ```
