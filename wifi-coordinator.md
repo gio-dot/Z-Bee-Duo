@@ -35,6 +35,7 @@ If Z-bee was previously used as USB adapter, the new configuration will maintain
 
 ## **ZHA setup**
 
+Please follow general zigbee installation instructions [here](https://gio-dot.github.io/Z-Bee-Duo/usb-coordinator) before.
 Once Z-Bee Duo wifi is connected to wifi network, during ZHA initial setup its ip address have to be set in ZHA **Serial device path** as shown:
 
 ```socket://[IP]:[PORT]``` for example ```socket://192.168.1.11:23```
