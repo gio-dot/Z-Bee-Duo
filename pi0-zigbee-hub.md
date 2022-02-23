@@ -4,7 +4,7 @@
 Please follow this steps to setup a standalone zigbee2mqtt server with a **Raspberry PI Zero W** and **Z-Bee Duo**:
 - Install Raspberry SO (via the Raspberry Pi Imager, suggested Raspberry Pi OS Lite (32-bit): [Raspberry PI setup](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2)
 - Tune Raspberry PI Zero settings (instructions are the same for Z-Bee Duo): [PI0 settings](https://www.zigbee2mqtt.io/guide/adapters/flashing/connecting_cc2530.html#to-a-raspberry-pi-zero)
-- Install zigbee2mqtt (venv mode): [Zigbee2mqtt venv](https://www.zigbee2mqtt.io/information/virtual_environment.html)
+- Install zigbee2mqtt (venv mode): [Zigbee2mqtt venv](https://www.zigbee2mqtt.io/information/virtual_environment.html) or in docker [Zigbee2mqtt docker](https://www.zigbee2mqtt.io/guide/installation/02_docker.html#creating-the-initial-configuration)
 - Edit zigbee2mqtt configuration before to start it: [Configuration](https://www.zigbee2mqtt.io/guide/configuration/)
 
 
@@ -23,9 +23,6 @@ serial:
   port: /dev/ttyAMA0
 frontend:
   port: 8080
-experimental:
-  new_api: true
-  transmit_power: 15
 advanced:
   log_level: info
   pan_id: 6754
