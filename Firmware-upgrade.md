@@ -6,7 +6,7 @@ RF-Star version (blue chip): latest tested **coordinator** firmwares are:
 - [Koenkk Z-Stack_3.x.0 20220219](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_launchpad_coordinator_20220219.zip)
 
 E-Byte version (green chip): latest tested **coordinator** firmwares are: 
-- [Koenkk 3.x.0 20211217](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20220219.zip)
+- [Koenkk Z-Stack_3.x.0 20220219](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20220219.zip)
 
 ## FLASH TOOLS
 
