@@ -1,44 +1,25 @@
-## [Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)/Flash from Windows
+## [Firmware upgrade](https://gio-dot.github.io/Z-Bee-Duo/Firmware-upgrade)/Flash with Multitool software
 
 
 
 ### USB CONNECTED to the PC, no WIFi/Lan modules or Raspberry connected to Z-Bee
 
-- Install Python: [Python](https://www.python.org/downloads/). Verify installation with command (from Windows Powershell):
-```
-python -V
-```
-- From Windows Powershell execute:
-```
-python -m pip install --upgrade pip
-```
-```
-python -m pip install pyserial
-```
-```
-python -m pip install intelhex
-```
-- Download and unpack flash tool (in a folder of your choice, for example c:\python) [Flash tool](https://github.com/Gio-dot/Z-Bee-Duo/raw/main/flash_tool/cc2538-bsl.zip)
-- Download in that same folder also the new firmware to flash (for example CC1352P2_CC2652P_other_coordinator_20210120.hex). 
-- Now plug USB stick. Press FLASH + RESET: release RESET before then FLASH; adapter is now in flash mode.
-- From Windows powershell move to firmware folder (for example cd C: then CD python) and use this command (take care to use effective COM port and firmware name): 
-```
-python.exe cc2538-bsl.py -p COM4 -evw CC1352P2_CC2652P_other_coordinator_20210120.hex
-```
-- Since version **1.1 to rev.D** adapter is provided by auto BSL: no buttons are needed to enter in flash mode. Flash string is the following:
-```
-python.exe cc2538-bsl.py -p COM4 --invoke-bootloader 3 -ewv CC1352P2_CC2652P_other_coordinator_20210120.hex
-```
+Thanks to [xyzroe](https://github.com/xyzroe), starting from Z-Bee Duo **rev.E** it is possible to flash zigbee firmware without the need to install python and press buttons:
 
-- Since **rev.E** no buttons are needed to enter in flash mode. Flash string is the following:
-```
-python.exe cc2538-bsl.py -p COM4 -ewv CC1352P2_CC2652P_launchpad_coordinator_20211217.hex
-```
-- Done
+- Download and unpack flash tool (in a folder of your choice or in desktop), it is an executable, no need to install: [Multitool](https://github.com/Gio-dot/Z-Bee-Duo/blob/gh-pages/flash_tool/ZigStarGW-MT-x64.exe.zip)
+- Download and unpack (in a folder of your choice or in desktop) the new firmware to flash (for example CC1352P2_CC2652P_other_coordinator_20210120.hex). 
+- Now plug USB stick to the computer (remember to remove wifi or ethernet module if present).
+- Open flash tool and locate USB port used by Z-Bee (1) and (2) fig. 1.
+- Locate and select the firmware to flash (1) fig.2. Select options as in (2) fig.2 and press START (3) fig.2.
+- After few seconds flash is Done!
 
 <p float="left">
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-1.png?raw=true" width="500" /> 
-  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/main/images/Flash%20W10-2.png?raw=true" width="400" /> 
-</p>
+  <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/gh-pages/images/mt-fig1.jpg?raw=true" width="500" /> 
+ </p>
+  fig.1
 
+<p float="left">
+   <img src="https://github.com/Gio-dot/Z-Bee-Duo/blob/gh-pages/images/mt-fig2.jpg?raw=true" width="510" /> 
+</p>
+fig.2
 
