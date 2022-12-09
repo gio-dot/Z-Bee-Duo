@@ -10,6 +10,7 @@ E-Byte version (green chip): latest tested **coordinator** firmwares are:
 
 ## FLASH TOOLS
 
+- #### [XYZROE MULTITOOL](https://gio-dot.github.io/Z-Bee-Duo/flash-from-multitool-software)
 - #### [TEXAS INTRUMENTS FLASH PROGRAMMER 2](https://gio-dot.github.io/Z-Bee-Duo/flash-programmer2)
 - #### [FROM LINUX](https://gio-dot.github.io/Z-Bee-Duo/flash-from-linux)
 - #### [FROM WINDOWS](https://gio-dot.github.io/Z-Bee-Duo/flash-from-windows)
