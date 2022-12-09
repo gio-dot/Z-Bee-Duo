@@ -6,7 +6,7 @@
 
 Thanks to [xyzroe](https://github.com/xyzroe), starting from Z-Bee Duo **rev.E** it is possible to flash zigbee firmware without the need to install python and press buttons:
 
-- Download and unpack flash tool (in a folder of your choice or in desktop), it is an executable, no need to install: [Multitool](https://github.com/Gio-dot/Z-Bee-Duo/blob/gh-pages/flash_tool/ZigStarGW-MT-x64.exe.zip)
+- Download and unpack flash tool (in a folder of your choice or in desktop), it is an executable, no need to install: [Multitool](https://github.com/Gio-dot/Z-Bee-Duo/raw/gh-pages/flash_tool/ZigStarGW-MT-x64.exe.zip)
 - Download and unpack (in a folder of your choice or in desktop) the new firmware to flash (for example CC1352P2_CC2652P_other_coordinator_20210120.hex). 
 - Now plug USB stick to the computer (remember to remove wifi or ethernet module if present).
 - Open flash tool and locate USB port used by Z-Bee (1) and (2) fig. 1.
