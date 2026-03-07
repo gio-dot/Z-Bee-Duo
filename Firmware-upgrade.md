@@ -3,10 +3,10 @@
 CC2652P chip is provided with a serial bootloader, so if internal firmware have to be updated, no external programmers are needed. **Flash can be done both from USB and from serial (when connected as a Raspberry hat)**. Take care to use a new firmware provided with serial bootloader to not loose bootloader functionality.
 
 RF-Star version (blue chip): latest tested **coordinator** firmwares are: 
-- [Koenkk CC1352P2_CC2652P_launchpad_coordinator_20240710](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_launchpad_coordinator_20240710.zip)
+- [Koenkk CC1352P2_CC2652P_launchpad_coordinator_20250321](https://github.com/Koenkk/Z-Stack-firmware/releases/download/Z-Stack_3.x.0_coordinator_20250321/CC1352P2_CC2652P_launchpad_coordinator_20250321.zip)
 
 E-Byte version (green chip): latest tested **coordinator** firmwares are: 
-- [Koenkk CC1352P2_CC2652P_other_coordinator_20240710](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_other_coordinator_20240710.zip)
+- [Koenkk CC1352P2_CC2652P_other_coordinator_20250321](https://github.com/Koenkk/Z-Stack-firmware/releases/download/Z-Stack_3.x.0_coordinator_20250321/CC1352P2_CC2652P_other_coordinator_20250321.zip)
 
 ## FLASH TOOLS
 
